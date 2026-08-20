@@ -1,0 +1,67 @@
+lane_id,origin,destination,carrier,rate_usd,status,quote_date,quote_period_start,quote_period_end,validity_period,method,components,source_note,is_current
+OAK-VERDI,Oakland CA,Verdi NV,Maersk,1960.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"1820 haulage + 140 fuel","Original 13-lane baseline; exact quote day not specified",true
+OAK-VERDI,Oakland CA,Verdi NV,MSC,,No Pricing,,2026-06-01,2026-06-07,Q3 2026,none,,"Original 13-lane baseline",true
+OAK-VERDI,Oakland CA,Verdi NV,Hapag-Lloyd,1807.00,Available,,2026-06-01,2026-06-07,Q3 2026,derived_truck_only,,"Original 13-lane baseline; component detail not retained",true
+OAK-SAC,Oakland CA,Sacramento CA,Maersk,770.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"630 haulage + 140 fuel","Original 13-lane baseline",true
+OAK-SAC,Oakland CA,Sacramento CA,MSC,959.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"586 oncarriage + 263 fuel + 110 chassis","Original 13-lane baseline",true
+OAK-SAC,Oakland CA,Sacramento CA,Hapag-Lloyd,1047.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"825 landfreight + 68 emergency fuel + 90 chassis + 64 inland fuel","Original 13-lane baseline",true
+NY-HAT,New York NY,Hatfield MA,Maersk,935.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"795 haulage + 140 fuel","Original 13-lane baseline",true
+NY-HAT,New York NY,Hatfield MA,MSC,1114.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"741 oncarriage + 263 fuel + 110 chassis","Original 13-lane baseline",true
+NY-HAT,New York NY,Hatfield MA,Hapag-Lloyd,1185.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"965 landfreight + 68 emergency fuel + 88 chassis + 64 inland fuel","Original 13-lane baseline",true
+NY-PWM,New York NY,Portland ME,Maersk,1430.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"1290 haulage + 140 fuel","Original 13-lane baseline",true
+NY-PWM,New York NY,Portland ME,MSC,1554.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"1181 oncarriage + 263 fuel + 110 chassis","Original 13-lane baseline",true
+NY-PWM,New York NY,Portland ME,Hapag-Lloyd,1610.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"1390 landfreight + 68 emergency fuel + 88 chassis + 64 inland fuel","Original 13-lane baseline",true
+HOU-SAT,Houston TX,San Antonio TX,Maersk,1085.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"945 haulage + 140 fuel","Original 13-lane baseline",true
+HOU-SAT,Houston TX,San Antonio TX,MSC,1289.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"916 oncarriage + 263 fuel + 110 chassis","Original 13-lane baseline",true
+HOU-SAT,Houston TX,San Antonio TX,Hapag-Lloyd,1405.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"1185 landfreight + 68 emergency fuel + 88 chassis + 64 inland fuel","Original 13-lane baseline",true
+HOU-DESOTO,Houston TX,DeSoto TX,Maersk,1135.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"995 haulage + 140 fuel","Superseded by 2026-08-20 re-quote",false
+HOU-DESOTO,Houston TX,DeSoto TX,MSC,1344.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"971 oncarriage + 263 fuel + 110 chassis","Superseded by 2026-08-20 re-quote",false
+HOU-DESOTO,Houston TX,DeSoto TX,Hapag-Lloyd,1475.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"1255 landfreight + 68 emergency fuel + 88 chassis + 64 inland fuel","Superseded by 2026-08-20 re-quote",false
+CHS-LEB,Charleston SC,Lebanon TN,Maersk,665.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"525 haulage + 140 fuel","Original 13-lane baseline",true
+CHS-LEB,Charleston SC,Lebanon TN,MSC,744.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"371 oncarriage + 263 fuel + 110 chassis","Original 13-lane baseline",true
+CHS-LEB,Charleston SC,Lebanon TN,Hapag-Lloyd,895.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"675 landfreight + 68 emergency fuel + 88 chassis + 64 inland fuel","Original 13-lane baseline",true
+CHS-MAD,Charleston SC,Madison TN,Maersk,615.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"475 haulage + 140 fuel","Original 13-lane baseline",true
+CHS-MAD,Charleston SC,Madison TN,MSC,510.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"137 oncarriage + 263 fuel + 110 chassis","Original 13-lane baseline",true
+CHS-MAD,Charleston SC,Madison TN,Hapag-Lloyd,625.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"405 landfreight + 68 emergency fuel + 88 chassis + 64 inland fuel","Original 13-lane baseline",true
+ORF-SAND,Norfolk VA,Sandston VA,Maersk,945.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"805 haulage + 140 fuel","Original 13-lane baseline",true
+ORF-SAND,Norfolk VA,Sandston VA,MSC,827.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"454 oncarriage + 263 fuel + 110 chassis","Original 13-lane baseline",true
+ORF-SAND,Norfolk VA,Sandston VA,Hapag-Lloyd,980.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"760 landfreight + 68 emergency fuel + 88 chassis + 64 inland fuel","Original 13-lane baseline",true
+ORF-SHEP,Norfolk VA,Shepherdsville KY,Maersk,670.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"530 haulage + 140 fuel","Original 13-lane baseline",true
+ORF-SHEP,Norfolk VA,Shepherdsville KY,MSC,671.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"298 oncarriage + 263 fuel + 110 chassis","Original 13-lane baseline",true
+ORF-SHEP,Norfolk VA,Shepherdsville KY,Hapag-Lloyd,542.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"314 landfreight + 68 emergency fuel + 80 chassis + 80 inland fuel","Original 13-lane baseline",true
+LAX-ONT,Los Angeles CA,Ontario CA,Maersk,830.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"690 haulage + 140 fuel","Original 13-lane baseline",true
+LAX-ONT,Los Angeles CA,Ontario CA,MSC,944.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"571 oncarriage + 263 fuel + 110 chassis","Original 13-lane baseline",true
+LAX-ONT,Los Angeles CA,Ontario CA,Hapag-Lloyd,1157.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"945 landfreight + 68 emergency fuel + 80 chassis + 64 inland fuel","Original 13-lane baseline",true
+SAV-FTM,Savannah GA,Fort Mill SC,Maersk,,No Service,,2026-06-01,2026-06-07,Q3 2026,none,,"Original 13-lane baseline",true
+SAV-FTM,Savannah GA,Fort Mill SC,MSC,1373.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"865 oncarriage + 398 fuel + 110 chassis","Original 13-lane baseline",true
+SAV-FTM,Savannah GA,Fort Mill SC,Hapag-Lloyd,,No Service,,2026-06-01,2026-06-07,Q3 2026,none,,"Original 13-lane baseline",true
+PEV-DEER,Port Everglades FL,Deerfield Beach FL,Maersk,535.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"395 haulage + 140 fuel","Original 13-lane baseline",true
+PEV-DEER,Port Everglades FL,Deerfield Beach FL,MSC,644.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"271 oncarriage + 263 fuel + 110 chassis","Original 13-lane baseline",true
+PEV-DEER,Port Everglades FL,Deerfield Beach FL,Hapag-Lloyd,710.00,Available,,2026-06-01,2026-06-07,Q3 2026,component_sum,"490 landfreight + 68 emergency fuel + 88 chassis + 64 inland fuel","Original 13-lane baseline",true
+BNA-BEAVER,Nashville Ramp,Beaver Dam KY,Maersk,1105.00,Available,2026-06-13,,,Q3 2026,component_sum,"965 haulage + 140 fuel","Ramp alternative; compare separately from Louisville until SSL routing is confirmed",true
+BNA-BEAVER,Nashville Ramp,Beaver Dam KY,MSC,,Pending,2026-06-13,,,Q3 2026,none,,"Actual MSC ramp basis not yet confirmed",true
+BNA-BEAVER,Nashville Ramp,Beaver Dam KY,Hapag-Lloyd,,Pending,2026-06-13,,,Q3 2026,none,,"Actual Hapag-Lloyd ramp basis not yet confirmed",true
+SDF-BEAVER,Louisville Ramp,Beaver Dam KY,Maersk,1050.00,Available,2026-06-13,,,Q3 2026,component_sum,"910 haulage + 140 fuel","Ramp alternative; Maersk is 55 lower here than via Nashville",true
+SDF-BEAVER,Louisville Ramp,Beaver Dam KY,MSC,,Pending,2026-06-13,,,Q3 2026,none,,"Actual MSC ramp basis not yet confirmed",true
+SDF-BEAVER,Louisville Ramp,Beaver Dam KY,Hapag-Lloyd,,Pending,2026-06-13,,,Q3 2026,none,,"Actual Hapag-Lloyd ramp basis not yet confirmed",true
+SDF-LEX,Louisville Ramp,Lexington KY,Maersk,855.00,Available,2026-06-13,,,Q3 2026,component_sum,"715 haulage + 140 fuel","Louisville-specific lane option",true
+SDF-LEX,Louisville Ramp,Lexington KY,MSC,810.00,Available,2026-06-13,,,Q3 2026,isolated_rail_door,"(1670 + 490 + 110) - (1190 + 270)","Louisville-specific Rail+Door less Rail-only calculation",true
+SDF-LEX,Louisville Ramp,Lexington KY,Hapag-Lloyd,847.00,Available,2026-06-13,,,Q3 2026,isolated_rail_door,"(2220 + 170 + 80 + 158) - (1585 + 102 + 94)","Louisville-specific Rail+Door less Rail-only calculation",true
+CIN-LEX,Cincinnati Ramp,Lexington KY,Maersk,850.00,Available,2026-06-13,,,Q3 2026,component_sum,"710 haulage + 140 fuel","Cincinnati alternative; 5 lower than Maersk via Louisville",true
+CIN-LEX,Cincinnati Ramp,Lexington KY,MSC,,Pending,2026-06-13,,,Q3 2026,none,,"Need Cincinnati-basis MSC quote",true
+CIN-LEX,Cincinnati Ramp,Lexington KY,Hapag-Lloyd,,Pending,2026-06-13,,,Q3 2026,none,,"Need Cincinnati-basis Hapag-Lloyd quote",true
+ATL-MARIETTA,Atlanta Ramp,Marietta GA,Maersk,740.00,Available,2026-06-13,,,Q3 2026,component_sum,"600 haulage + 140 fuel","Logged as Atlanta Ramp lane",true
+ATL-MARIETTA,Atlanta Ramp,Marietta GA,MSC,625.00,Available,2026-06-13,,,Q3 2026,isolated_rail_door,"(835 + 490 + 110) - (540 + 270)","Rail+Door less Rail-only",true
+ATL-MARIETTA,Atlanta Ramp,Marietta GA,Hapag-Lloyd,577.00,Available,2026-06-13,,,Q3 2026,isolated_rail_door,"(1165 + 170 + 80 + 158) - (800 + 102 + 94)","Rail+Door less Rail-only",true
+MSY-SIMSBORO,New Orleans Port,Simsboro LA,Maersk,,Pending,2026-07-06,,,Q3 2026,none,,"Maersk quote not yet obtained",true
+MSY-SIMSBORO,New Orleans Port,Simsboro LA,MSC,1619.00,Available,2026-07-06,,,Q3 2026,component_sum,"1109 oncarriage + 400 fuel + 110 chassis","MSC only valid SSL rate currently available",true
+MSY-SIMSBORO,New Orleans Port,Simsboro LA,Hapag-Lloyd,,No Service,2026-07-06,,,Q3 2026,none,,"Hapag-Lloyd does not offer this lane",true
+CHI-RFD,Chicago Ramp,Rockford IL,Maersk,1160.00,Available,2026-07-22,,,Q3 2026,component_sum,"1020 haulage + 140 fuel","Chicago Ramp to Rockford",true
+CHI-RFD,Chicago Ramp,Rockford IL,MSC,959.00,Available,2026-07-22,,,Q3 2026,isolated_rail_door,"(1469 + 390 + 110) - (790 + 220)","Rail+Door less Rail-only",true
+CHI-RFD,Chicago Ramp,Rockford IL,Hapag-Lloyd,536.00,Available,2026-07-22,,,Q3 2026,isolated_rail_door,"(1740 + 180 + 80 + 158) - (1420 + 108 + 94)","Rail+Door less Rail-only",true
+MKC-BELOIT,Kansas City Ramp,Beloit KS,Maersk,1685.00,Available,2026-08-10,,,Q3 2026,component_sum,"1545 haulage + 140 fuel","Only SSL service currently available",true
+MKC-BELOIT,Kansas City Ramp,Beloit KS,MSC,,No Service,2026-08-10,,,Q3 2026,none,,"MSC does not offer this lane",true
+MKC-BELOIT,Kansas City Ramp,Beloit KS,Hapag-Lloyd,,No Service,2026-08-10,,,Q3 2026,none,,"Hapag-Lloyd does not offer this lane",true
+HOU-DESOTO,Houston TX,DeSoto TX,Maersk,1630.00,Available,2026-08-20,,,Q3 2026,component_sum,"1490 haulage + 140 fuel","Current re-quote; supersedes original baseline",true
+HOU-DESOTO,Houston TX,DeSoto TX,MSC,1495.00,Available,2026-08-20,,,Q3 2026,component_sum,"1018 oncarriage + 367 fuel + 110 chassis","Current re-quote; supersedes original baseline",true
+HOU-DESOTO,Houston TX,DeSoto TX,Hapag-Lloyd,1629.00,Available,2026-08-20,,,Q3 2026,direct_total,,"Current re-quote; component detail not retained",true
