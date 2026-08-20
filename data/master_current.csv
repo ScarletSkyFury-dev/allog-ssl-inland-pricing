@@ -1,0 +1,22 @@
+lane_id,origin,destination,maersk_usd,maersk_status,msc_usd,msc_status,hapag_lloyd_usd,hapag_status,average_ssl_usd,current_ssl_winner,quote_reference,validity_period,notes
+OAK-VERDI,Oakland CA,Verdi NV,1960.00,Available,,No Pricing,1807.00,Available,1883.50,Hapag-Lloyd,"Baseline quoted week 2026-06-01 to 2026-06-07",Q3 2026,
+OAK-SAC,Oakland CA,Sacramento CA,770.00,Available,959.00,Available,1047.00,Available,925.33,Maersk,"Baseline quoted week 2026-06-01 to 2026-06-07",Q3 2026,
+NY-HAT,New York NY,Hatfield MA,935.00,Available,1114.00,Available,1185.00,Available,1078.00,Maersk,"Baseline quoted week 2026-06-01 to 2026-06-07",Q3 2026,
+NY-PWM,New York NY,Portland ME,1430.00,Available,1554.00,Available,1610.00,Available,1531.33,Maersk,"Baseline quoted week 2026-06-01 to 2026-06-07",Q3 2026,
+HOU-SAT,Houston TX,San Antonio TX,1085.00,Available,1289.00,Available,1405.00,Available,1259.67,Maersk,"Baseline quoted week 2026-06-01 to 2026-06-07",Q3 2026,
+HOU-DESOTO,Houston TX,DeSoto TX,1630.00,Available,1495.00,Available,1629.00,Available,1584.67,MSC,2026-08-20,Q3 2026,"Re-quoted; historical baseline preserved in rates_history.csv"
+CHS-LEB,Charleston SC,Lebanon TN,665.00,Available,744.00,Available,895.00,Available,768.00,Maersk,"Baseline quoted week 2026-06-01 to 2026-06-07",Q3 2026,
+CHS-MAD,Charleston SC,Madison TN,615.00,Available,510.00,Available,625.00,Available,583.33,MSC,"Baseline quoted week 2026-06-01 to 2026-06-07",Q3 2026,
+ORF-SAND,Norfolk VA,Sandston VA,945.00,Available,827.00,Available,980.00,Available,917.33,MSC,"Baseline quoted week 2026-06-01 to 2026-06-07",Q3 2026,
+ORF-SHEP,Norfolk VA,Shepherdsville KY,670.00,Available,671.00,Available,542.00,Available,627.67,Hapag-Lloyd,"Baseline quoted week 2026-06-01 to 2026-06-07",Q3 2026,
+LAX-ONT,Los Angeles CA,Ontario CA,830.00,Available,944.00,Available,1157.00,Available,977.00,Maersk,"Baseline quoted week 2026-06-01 to 2026-06-07",Q3 2026,
+SAV-FTM,Savannah GA,Fort Mill SC,,No Service,1373.00,Available,,No Service,1373.00,MSC,"Baseline quoted week 2026-06-01 to 2026-06-07",Q3 2026,"MSC is the only SSL service logged"
+PEV-DEER,Port Everglades FL,Deerfield Beach FL,535.00,Available,644.00,Available,710.00,Available,629.67,Maersk,"Baseline quoted week 2026-06-01 to 2026-06-07",Q3 2026,
+BNA-BEAVER,Nashville Ramp,Beaver Dam KY,1105.00,Available,,Pending,,Pending,1105.00,Pending comparison,2026-06-13,Q3 2026,"MSC and Hapag-Lloyd ramp basis not confirmed"
+SDF-BEAVER,Louisville Ramp,Beaver Dam KY,1050.00,Available,,Pending,,Pending,1050.00,Pending comparison,2026-06-13,Q3 2026,"MSC and Hapag-Lloyd ramp basis not confirmed; Maersk is 55 lower than via Nashville"
+SDF-LEX,Louisville Ramp,Lexington KY,855.00,Available,810.00,Available,847.00,Available,837.33,MSC,2026-06-13,Q3 2026,"All three values are Louisville-ramp-specific"
+CIN-LEX,Cincinnati Ramp,Lexington KY,850.00,Available,,Pending,,Pending,850.00,Pending comparison,2026-06-13,Q3 2026,"Need Cincinnati-basis MSC and Hapag-Lloyd quotes"
+ATL-MARIETTA,Atlanta Ramp,Marietta GA,740.00,Available,625.00,Available,577.00,Available,647.33,Hapag-Lloyd,2026-06-13,Q3 2026,
+MSY-SIMSBORO,New Orleans Port,Simsboro LA,,Pending,1619.00,Available,,No Service,1619.00,MSC only logged,2026-07-06,Q3 2026,"Maersk quote still pending"
+CHI-RFD,Chicago Ramp,Rockford IL,1160.00,Available,959.00,Available,536.00,Available,885.00,Hapag-Lloyd,2026-07-22,Q3 2026,
+MKC-BELOIT,Kansas City Ramp,Beloit KS,1685.00,Available,,No Service,,No Service,1685.00,Maersk,2026-08-10,Q3 2026,"Maersk is the only SSL service logged; separate market benchmark available"
