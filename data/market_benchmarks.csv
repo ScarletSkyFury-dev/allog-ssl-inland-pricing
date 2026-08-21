@@ -1,2 +1,3 @@
 lane_id,origin,destination,benchmark_type,provider_or_source,rate_usd,quoted_on,valid_until,notes
 MKC-BELOIT,Kansas City Ramp,Beloit KS,Best current market price,Unspecified market/provider,1650.00,2026-08-10,2026-09-30,"Keep separate from SSL average; Maersk SSL rate is 35 higher"
+OAK-VERDI,Oakland CA,Verdi NV,Allog best provider rate,Allog USA,1500.00,2026-08-21,,"Includes 2 days chassis. Current Maersk = 1965, so Allog is 465 lower (23.66% below Maersk). MSC currently not offering; Hapag isolated drayage pending."
