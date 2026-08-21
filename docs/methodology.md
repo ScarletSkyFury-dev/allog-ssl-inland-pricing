@@ -44,7 +44,33 @@ Current standard reference values for analytical normalization:
 
 Working normalization basis: **2 days chassis only**, unless a different comparison basis is explicitly required.
 
-Example when an Allog all-in quote includes 3 days chassis, 2 days storage, and prepull:
+### Normal Allog All-in standard
+
+Unless a lane is specifically documented otherwise, the normal Allog All-in package for this comparison is:
+
+- 2 days chassis
+- prepull
+- 1 day storage
+
+For that normal package:
+
+`Normalized 2-day-chassis estimate = All-in quote - 1 storage day - prepull`
+
+Using the current reference values:
+
+`Normalized estimate = All-in quote - 50 - 150`
+
+No chassis deduction is made because the actual package already includes the 2-day chassis comparison basis.
+
+### Known exceptions
+
+At present, **Hatfield, MA** and **Portland, ME** are the only documented exceptions to the normal All-in standard. Their special All-in package includes:
+
+- 3 days chassis
+- 2 days storage
+- prepull
+
+For those two lanes:
 
 `Normalized 2-day-chassis estimate = All-in quote - 1 extra chassis day - 2 storage days - prepull`
 
@@ -52,11 +78,11 @@ Using the current reference values:
 
 `Normalized estimate = All-in quote - 45 - 100 - 150`
 
-This is an analytical approximation. Special all-in rates may be commercially bundled, so the deduction does not prove that the provider would actually quote the normalized amount as a standalone rate.
+This is an analytical approximation. Special All-in rates may be commercially bundled, so the deduction does not prove that the provider would actually quote the normalized amount as a standalone rate.
 
 For reporting, show both where relevant:
 
-1. **Actual Allog all-in rate** — the real commercial rate and service package.
+1. **Actual Allog All-in rate** — the real commercial rate and service package.
 2. **Normalized Allog estimate** — the analytical 2-day-chassis-only equivalent used only to improve comparability against SSL pricing.
 
 ## Average SSL rate
