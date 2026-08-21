@@ -4,6 +4,18 @@
 
 The dataset compares standalone import inland / drayage costs for 40' HC containers offered by Maersk, MSC, and Hapag-Lloyd across U.S. lanes.
 
+## Report field mapping
+
+For the Allog volume report used to define the Top 10 lanes:
+
+- `Destino Nome` = port / ocean gateway origin shown in the report
+- `Destino Delivery Nome` = actual customer delivery location
+- `Destino Final Nome`, when populated = inland rail ramp used before final delivery
+
+A carrier quote may separately show a first POD that is not the final rail ramp. For example, Hapag may show Houston as first POD while the container continues inland by rail before the local truck delivery. Do not treat the displayed POD as the drayage ramp unless the carrier actually identifies it as such.
+
+When the SSL does not expose the inland rail provider or final rail ramp, keep the local drayage amount pending until a comparable Rail-only quote or other evidence allows the truck portion to be isolated reliably.
+
 ## Standalone truck calculation
 
 ### Direct truck quote
@@ -34,7 +46,7 @@ Do not declare a true market winner where competing carrier quotes may be based 
 
 ## Quote dates and staleness
 
-Each carrier observation should retain its quote date when known. Historical prices are never overwritten; a new observation supersedes the previous one only for the current-view file.
+Each carrier observation should retain its quote date when known. Historical prices are never overwritten or deleted simply because a newer quote exists.
 
 For the original 13-lane baseline, the user stated the rates were obtained during the week immediately before 2026-06-13. Because an exact day was not specified, the history file records the quote period as 2026-06-01 through 2026-06-07 and leaves `quote_date` blank.
 
@@ -49,12 +61,17 @@ Normal refresh cadence: approximately every three months, accelerated when U.S. 
 - `No Pricing`: usable pricing was not returned
 - `Pending`: additional quote or ramp confirmation is required
 
-## Historical changes
+## Historical changes and snapshots
+
+The repository is intended to support trend analysis over time, not just the latest price.
 
 When a lane is re-quoted:
 
-1. Add the new carrier observations to `data/rates_history.csv`.
-2. Keep the previous observations in history with `is_current=false`.
-3. Update `data/master_current.csv` to the newest valid snapshot.
-4. Recalculate the average and winner.
-5. Keep market / trucker benchmarks in `data/market_benchmarks.csv`; they must not enter the SSL average.
+1. Preserve every previous carrier observation in `data/rates_history.csv`.
+2. Add the new observation as a new dated record; do not erase or replace the old observation.
+3. Quarterly / refresh-cycle working files such as `data/top10_refresh_2026_q3.csv` remain separate snapshots and are retained after the next cycle is created.
+4. `data/master_current.csv` may be used as a convenience view of the latest completed comparison, but updating that view must never remove the underlying historical records or prior quarterly snapshots.
+5. Recalculate the current average and winner only from the valid rates for the same dated / routing basis.
+6. Keep market / trucker benchmarks in `data/market_benchmarks.csv`; they must not enter the SSL average.
+
+This structure allows later comparisons of carrier pricing, Allog performance, fuel-driven changes, and lane competitiveness by quarter.
