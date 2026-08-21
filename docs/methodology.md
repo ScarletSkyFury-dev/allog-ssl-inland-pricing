@@ -30,6 +30,35 @@ When the carrier does not expose a standalone local truck amount, calculate:
 
 The two sides of the subtraction must use equivalent equipment and comparable charge components.
 
+## Allog provider quote normalization
+
+Most Allog provider rates are quoted on an operational all-in basis rather than on the same stripped-down basis used for the SSL comparison. Only selected clients, such as the Verdi lane example, routinely request a 2-day-chassis-only provider rate.
+
+Therefore, always preserve the actual Allog/provider quote exactly as received. When management needs an approximate apples-to-apples analytical comparison, a separate normalized estimate may be calculated, but it must never be presented as an actual provider quote.
+
+Current standard reference values for analytical normalization:
+
+- Chassis: `USD 45 per day`
+- Storage: `USD 50 per day`
+- Prepull: `USD 150`
+
+Working normalization basis: **2 days chassis only**, unless a different comparison basis is explicitly required.
+
+Example when an Allog all-in quote includes 3 days chassis, 2 days storage, and prepull:
+
+`Normalized 2-day-chassis estimate = All-in quote - 1 extra chassis day - 2 storage days - prepull`
+
+Using the current reference values:
+
+`Normalized estimate = All-in quote - 45 - 100 - 150`
+
+This is an analytical approximation. Special all-in rates may be commercially bundled, so the deduction does not prove that the provider would actually quote the normalized amount as a standalone rate.
+
+For reporting, show both where relevant:
+
+1. **Actual Allog all-in rate** — the real commercial rate and service package.
+2. **Normalized Allog estimate** — the analytical 2-day-chassis-only equivalent used only to improve comparability against SSL pricing.
+
 ## Average SSL rate
 
 `Average SSL Rate = sum(valid numeric SSL rates) / count(valid numeric SSL rates)`
