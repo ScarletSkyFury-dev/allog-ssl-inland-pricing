@@ -32,17 +32,19 @@ The two sides of the subtraction must use equivalent equipment and comparable ch
 
 ## Allog provider quote normalization
 
-Most Allog provider rates are quoted on an operational all-in basis rather than on the same stripped-down basis used for the SSL comparison. Only selected clients, such as the Verdi lane example, routinely request a 2-day-chassis-only provider rate.
+Most Allog provider rates are quoted on an operational All-in basis because this is how clients commonly request the service. Only selected lanes / clients routinely request a stripped-down 2-day-chassis-only provider rate.
 
-Therefore, always preserve the actual Allog/provider quote exactly as received. When management needs an approximate apples-to-apples analytical comparison, a separate normalized estimate may be calculated, but it must never be presented as an actual provider quote.
+Therefore, always preserve the actual Allog/provider quote exactly as received. When management needs an approximate apples-to-apples analytical comparison, show a separate **indicative 2-day equivalent range**. This range is an analytical estimate only and must never be presented as an actual provider quote.
 
-Current standard reference values for analytical normalization:
+Current standalone reference values remain useful for context:
 
 - Chassis: `USD 45 per day`
 - Storage: `USD 50 per day`
 - Prepull: `USD 150`
 
-Working normalization basis: **2 days chassis only**, unless a different comparison basis is explicitly required.
+However, All-in packages are commercially bundled. The difference between a provider's All-in rate and its 2-day-chassis-only rate is **not necessarily the arithmetic sum of standalone accessorials**. In practice the package differential can be lower — for example approximately USD 120, 150, 175, or 200 — depending on the provider and lane.
+
+Working comparison basis: **2 days chassis only**, unless a different basis is explicitly required.
 
 ### Normal Allog All-in standard
 
@@ -52,52 +54,50 @@ Unless a lane is specifically documented otherwise, the normal Allog All-in pack
 - prepull
 - 1 day storage
 
-For that normal package:
+For management reporting, use an indicative bundled adjustment range of **USD 120 to USD 200** rather than automatically deducting USD 200.
 
-`Normalized 2-day-chassis estimate = All-in quote - 1 storage day - prepull`
+`Indicative 2-day equivalent range = All-in quote - USD 200 through All-in quote - USD 120`
 
-Using the current reference values:
+The lower end represents the larger assumed package adjustment; the upper end represents the more conservative adjustment.
 
-`Normalized estimate = All-in quote - 50 - 150`
+### Known enhanced-package exception
 
-No chassis deduction is made because the actual package already includes the 2-day chassis comparison basis.
-
-### Known exceptions
-
-At present, **Hatfield, MA** and **Portland, ME** are the only documented exceptions to the normal All-in standard. Their special All-in package includes:
+**Hatfield, MA** is currently the relevant enhanced-package lane in the management comparison. Its special All-in package includes:
 
 - 3 days chassis
 - 2 days storage
 - prepull
 
-For those two lanes:
+Relative to the normal All-in package, this adds one chassis day and one storage day. Using the current reference values, that adds USD 95 of nominal service value. For analytical reporting, use an estimated total adjustment range of **USD 215 to USD 295** from the Hatfield All-in rate when estimating a 2-day-chassis-only equivalent.
 
-`Normalized 2-day-chassis estimate = All-in quote - 1 extra chassis day - 2 storage days - prepull`
+Portland, ME has the same enhanced package, but is currently excluded from the numerical SSL management comparison because no comparable current SSL routing is available.
 
-Using the current reference values:
+### Actual 2-day rates
 
-`Normalized estimate = All-in quote - 45 - 100 - 150`
+Where Allog already has an actual 2-day provider rate, no normalization is required. Use the actual rate directly.
 
-This is an analytical approximation. Special All-in rates may be commercially bundled, so the deduction does not prove that the provider would actually quote the normalized amount as a standalone rate.
+### Reporting convention
 
-For reporting, show both where relevant:
+Show both where relevant:
 
-1. **Actual Allog All-in rate** — the real commercial rate and service package.
-2. **Normalized Allog estimate** — the analytical 2-day-chassis-only equivalent used only to improve comparability against SSL pricing.
+1. **Actual Allog commercial rate** — the real rate and service package offered to the client.
+2. **Indicative 2-day equivalent range** — an analytical range used only to improve comparability against SSL pricing.
+
+Savings based on the normalized range should also be expressed as a range, not as a single fixed number.
 
 ## Average SSL rate
 
 `Average SSL Rate = sum(valid numeric SSL rates) / count(valid numeric SSL rates)`
 
-Exclude `No Service`, `No Pricing`, and `Pending` from both numerator and denominator.
+Exclude `No Service`, `No Pricing`, `Pending`, and routing-incomparable options from both numerator and denominator.
 
-If only one SSL has a valid rate, the average equals that rate.
+If only one SSL has a valid comparable rate, the average equals that rate.
 
 ## Winner
 
 The current SSL winner is the lowest valid numeric SSL rate for the same lane / ramp basis.
 
-Do not declare a true market winner where competing carrier quotes may be based on different unidentified ramps. In those cases, preserve each known ramp option separately and mark unresolved carriers as `Pending`.
+Do not declare a true market winner where competing carrier quotes may be based on different unidentified ramps. In those cases, preserve each known ramp option separately and mark unresolved carriers as `Pending` or exclude the lane from an apples-to-apples management comparison.
 
 ## Quote dates and staleness
 
@@ -115,6 +115,7 @@ Normal refresh cadence: approximately every three months, accelerated when U.S. 
 - `No Service`: SSL does not serve the lane
 - `No Pricing`: usable pricing was not returned
 - `Pending`: additional quote or ramp confirmation is required
+- `Excluded - different routing`: service exists but does not use a comparable routing / ramp basis for the management comparison
 
 ## Historical changes and snapshots
 
