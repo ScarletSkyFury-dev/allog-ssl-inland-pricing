@@ -17,9 +17,9 @@ Across the selected lanes:
 - **Allog's actual commercial rate is below the SSL average on 8 of 10 lanes.**
 - **Allog's actual commercial rate beats the lowest available SSL on 6 of 10 lanes.**
 - After allowing for the additional operational services included in Allog All-in packages, the **indicative 2-day-equivalent range is below the SSL average on all 10 selected lanes.**
-- For the **9 selected lanes with confirmed container counts**, representing **376 x 40' containers YTD**, the modeled actual Allog commercial pricing is approximately **USD 92,964 below the SSL average**, or **15.3% lower**.
-- Using the indicative normalization range, the same 9-lane portfolio is estimated to be approximately **USD 125,754 to USD 141,914 below the SSL average**, equivalent to roughly **20.7% to 23.4% lower**.
-- Los Angeles → Ontario is favorable to Allog as well, but its exact 2026 YTD container count still needs to be inserted before the final 10-lane volume-weighted total is completed.
+- The selected portfolio represents **392 x 40' containers YTD in 2026**.
+- At current actual commercial rates, the modeled Allog cost is approximately **USD 94,836 below the SSL-average benchmark**, or **15.2% lower**.
+- Using the indicative normalization range, the estimated portfolio advantage increases to approximately **USD 129,546 to USD 146,986**, equivalent to roughly **20.8% to 23.6% below the SSL-average benchmark**.
 
 The largest current contribution is **Oakland → Verdi, NV**, where Allog is USD 501.50 below the SSL average per container and the lane has 140 containers YTD.
 
@@ -38,7 +38,7 @@ The largest current contribution is **Oakland → Verdi, NV**, where Allog is US
 | Oakland, CA → Sacramento, CA | 16 | $770 | $912 | $1,088 | **$923.33** | **$995 All-in** | **$795–$875** | **$71.67 higher** | **$48.33–$128.33 lower** |
 | Norfolk, VA → Sandston, VA | 16 | $845 | $788 | $933 | **$855.33** | **$785** | **$785 actual 2-day** | **$70.33 lower** | **$70.33 lower** |
 | Savannah, GA → Fort Mill, SC | 16 | $1,520 | $1,304 | No Service | **$1,412.00** | **$1,345 All-in** | **$1,145–$1,225** | **$67.00 lower** | **$187–$267 lower** |
-| Los Angeles, CA → Ontario, CA | **TBC** | $865 | $898 | $1,063 | **$942.00** | **$825 All-in** | **$625–$705** | **$117.00 lower** | **$237–$317 lower** |
+| Los Angeles, CA → Ontario, CA | 16 | $865 | $898 | $1,063 | **$942.00** | **$825 All-in** | **$625–$705** | **$117.00 lower** | **$237–$317 lower** |
 
 ### Reading the table
 
@@ -76,19 +76,17 @@ Where a genuine 2-day provider rate exists — currently Verdi, Lebanon, and San
 
 ## Portfolio View
 
-The 9 selected lanes with confirmed volumes represent **376 containers YTD**.
+The final selected Top 10 represents **392 containers YTD**.
 
-| Measure | 9-Lane Known-Volume Portfolio |
+| Measure | 10-Lane Portfolio |
 |---|---:|
-| Modeled SSL-average cost | **$607,488.64** |
-| Actual Allog commercial cost | **$514,525.00** |
-| Actual modeled Allog advantage | **$92,963.64** |
-| Actual modeled advantage % | **15.3%** |
-| Conservative normalized advantage | **$125,753.64** |
-| Higher normalized advantage | **$141,913.64** |
-| Indicative normalized advantage % | **20.7%–23.4%** |
-
-**Ontario is not yet included in these portfolio totals because its exact 2026 YTD volume count has not yet been recorded.** Each Ontario container would add approximately **USD 117 of actual Allog advantage vs. the SSL average**, or an estimated **USD 237 to USD 317** on the indicative 2-day-equivalent basis.
+| Modeled SSL-average cost | **$622,560.64** |
+| Actual Allog commercial cost | **$527,725.00** |
+| Actual modeled Allog advantage | **$94,835.64** |
+| Actual modeled advantage % | **15.2%** |
+| Conservative normalized advantage | **$129,545.64** |
+| Higher normalized advantage | **$146,985.64** |
+| Indicative normalized advantage % | **20.8%–23.6%** |
 
 ---
 
@@ -117,7 +115,7 @@ A comparison between Chicago-based Allog drayage and Minneapolis / Saint Paul SS
 ### Replacement lanes
 
 - **Savannah → Fort Mill, SC** — 16 containers YTD; clean comparable SSL pricing available from Maersk and MSC.
-- **Los Angeles → Ontario, CA** — next-highest eligible lane by volume; all three SSL rates are available and the routing is directly comparable. Exact YTD container count remains to be inserted.
+- **Los Angeles → Ontario, CA** — 16 containers YTD; all three SSL rates are available and the routing is directly comparable.
 
 Baltimore → Baltimore had previously been removed from the selected comparison and replaced by **Oakland → Sacramento, CA**.
 
