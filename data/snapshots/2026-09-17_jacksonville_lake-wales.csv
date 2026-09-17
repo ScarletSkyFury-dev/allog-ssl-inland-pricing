@@ -1,0 +1,5 @@
+snapshot_date,lane,carrier,rate_usd,status,method,components,notes
+2026-09-17,Jacksonville FL → Lake Wales FL,Maersk,1080.00,Available,component_sum,"940 haulage + 140 import intermodal fuel","Fresh quote observed 2026-09-17"
+2026-09-17,Jacksonville FL → Lake Wales FL,MSC,1152.00,Available,component_sum,"755 oncarriage + 287 fuel escalation surcharge + 110 chassis","Fresh quote observed 2026-09-17"
+2026-09-17,Jacksonville FL → Lake Wales FL,Hapag-Lloyd,,No Service,none,,"Hapag-Lloyd does not service Lake Wales via Jacksonville as of 2026-09-17"
+2026-09-17,Jacksonville FL → Lake Wales FL,SSL Average,1116.00,Calculated,average,"(1080 + 1152) / 2","Current SSL average for the 2026-09-17 Jacksonville snapshot"
