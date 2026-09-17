@@ -1,0 +1,5 @@
+snapshot_date,lane,carrier,rate_usd,status,method,components,notes
+2026-09-17,Newark/New York → Hatfield MA,Maersk,1285.00,Available,component_sum,"1145 haulage + 140 import intermodal fuel","Fresh quote observed 2026-09-17"
+2026-09-17,Newark/New York → Hatfield MA,MSC,1662.00,Available,component_sum,"1124 oncarriage + 428 fuel escalation surcharge + 110 chassis","Fresh quote observed 2026-09-17"
+2026-09-17,Newark/New York → Hatfield MA,Hapag-Lloyd,1743.00,Available,component_sum,"1555 destination landfreight truck + 64 inland truck fuel + 80 chassis + 44 emergency fuel truck","Fresh quote observed 2026-09-17; excludes pass-through/port/equipment-maintenance items from standalone drayage basis, consistent with project methodology"
+2026-09-17,Newark/New York → Hatfield MA,SSL Average,1563.33,Calculated,average,"(1285 + 1662 + 1743) / 3","Current SSL average for the 2026-09-17 snapshot"
