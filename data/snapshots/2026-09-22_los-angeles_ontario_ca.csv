@@ -1,0 +1,7 @@
+snapshot_date,lane,carrier,rate_usd,status,method,components,notes
+2026-09-22,Los Angeles CA → Ontario CA,Maersk,865.00,Available,component_sum,"725 haulage + 140 import intermodal fuel","Fresh snapshot observed 2026-09-22"
+2026-09-22,Los Angeles CA → Ontario CA,MSC,898.00,Available,component_sum,"571 oncarriage + 217 fuel escalation surcharge + 110 chassis","Fresh snapshot observed 2026-09-22"
+2026-09-22,Los Angeles CA → Ontario CA,Hapag-Lloyd,1098.00,Available,component_sum,"910 destination landfreight truck + 44 emergency fuel + 80 chassis + 64 inland truck fuel","Fresh snapshot observed 2026-09-22"
+2026-09-22,Los Angeles CA → Ontario CA,SSL Average,953.67,Calculated,average,"(865 + 898 + 1098) / 3","Current SSL average for 2026-09-22 snapshot"
+2026-09-22,Los Angeles CA → Ontario CA,Allog USA,900.00,Available,all_in,"Best Allog Q4 All-in provider rate","Actual commercial Allog rate for Q4"
+2026-09-22,Los Angeles CA → Ontario CA,Allog USA 2-day equivalent,750.00,Estimated,normalized,"900 - 150 standard All-in adjustment","Analytical 2-day equivalent using simplified USD 150 adjustment"
