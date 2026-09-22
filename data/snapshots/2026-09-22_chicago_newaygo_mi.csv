@@ -1,0 +1,7 @@
+snapshot_date,lane,carrier,rate_usd,status,method,components,notes
+2026-09-22,Chicago Ramp → Newaygo MI,Maersk,1415.00,Available,component_sum,"1275 haulage + 140 import intermodal fuel","Fresh quote observed 2026-09-22"
+2026-09-22,Chicago Ramp → Newaygo MI,MSC,1289.00,Available,isolated_rail_door,"(1799 oncarriage + 420 fuel + 110 chassis) - (790 rail-only oncarriage + 250 rail fuel)","Calculated from user-provided Rail+Door and Rail-only components"
+2026-09-22,Chicago Ramp → Newaygo MI,Hapag-Lloyd,863.00,Available,isolated_rail_door,"(2065 landfreight + 110 emergency fuel + 80 chassis + 158 inland fuel) - (1390 rail-only landfreight + 66 emergency fuel + 94 rail fuel)","Screenshot shows 2065 landfreight; user typed 2064, so screenshot-supported value used"
+2026-09-22,Chicago Ramp → Newaygo MI,SSL Average,1189.00,Calculated,average,"(1415 + 1289 + 863) / 3","Current SSL average for 2026-09-22 snapshot"
+2026-09-22,Chicago Ramp → Newaygo MI,Allog USA,1600.00,Available,all_in,"Best Allog All-in provider rate","Actual Allog commercial rate"
+2026-09-22,Chicago Ramp → Newaygo MI,Allog USA 2-day equivalent,1450.00,Estimated,normalized,"1600 - 150 standard All-in adjustment","Analytical 2-day equivalent using simplified USD 150 adjustment"
